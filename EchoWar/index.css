@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cadastrar-btn {
+    background-color: #f0f0f0;
+}
+.buy-btn {
+    background-color: #4CAF50;
+    color: white;
+}
