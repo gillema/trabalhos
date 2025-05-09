@@ -9,7 +9,7 @@
 <body>
     <div class="form-container">
         <h1>Formulário de Cadastro</h1>
-        <form action="index.php" method="post">
+        <form action="functions.php" method="post">
             <div class="form-group">
                 <label for="nome">Nome Completo:</label>
                 <input type="text" id="nome" name="nome" required>
@@ -29,7 +29,7 @@
                 <label for="telefone">Telefone:</label>
                 <input type="text" id="telefone" name="telefone" placeholder="(00) 00000-0000">
             </div>
-                <button type="submit">Enviar Formulário</button>
+                <button type="submit" method="post">Enviar Formulário</button>
             </div>
         </form>
     </div>
